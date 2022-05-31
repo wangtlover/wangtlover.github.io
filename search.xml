@@ -42,6 +42,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/shuoshuo/index.html</url>
     <content><![CDATA[<!-- 引用 artitalk -->
@@ -51,15 +56,10 @@
 <script>
 new Artitalk({
     appId: 'hX0JEJOpjlu7xRMVvmtebdwG', // Your LeanCloud appId
-    appKey: '6tKYwE86fz5vulc9boeMcQtz', // Your LeanCloud appKey
+    appKey: 'Ohfx2YxzVycvOnTQBvMyS9E7', // Your LeanCloud appKey
     serverURL: 'https://hx0jejop.api.lncldglobal.com' // Your LeanCloud appKey
 })
 </script>
 ]]></content>
-  </entry>
-  <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
