@@ -37,31 +37,25 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/shuoshuo/index.html</url>
-    <content><![CDATA[<!-- 引用 artitalk -->
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-<!-- 存放说说的容器 -->
-<div id="artitalk_main"></div>
-<script>
-    new Artitalk({
-        appId: 'hX0JEJOpjlu7xRMVvmtebdwG-MdYXbMMI', // Your LeanCloud appId
-        appKey: '6tKYwE86fz5vulc9boeMcQtz', // Your LeanCloud appKey
-        // pageSize: 50, //每页评论数量
-        // shuoPla: '', //评论框里显示，可以不填
-        // motion: 1, //加载动画的开关 0（关闭），1（开启）
-        // atComment: 1, //评论功能的开关 0（关闭），1（开启）
-        // bgImg: '', //评论框里的背景，可以不填
-        // color1: 'linear-gradient(102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%)', //自定义颜色，有几种方式
-        // color2: 'linear-gradient(50deg, rgb(30,227,207) 10%, rgb(249,188,221) 90%)',
-        // color3: '#3b9a9c',
-    })
-</script>]]></content>
-  </entry>
-  <entry>
     <title>categories</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/shuoshuo/index.html</url>
+    <content><![CDATA[<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<body>
+    <script>
+    var appID="hX0JEJOpjlu7xRMVvmtebdwG";
+    var appKEY="6tKYwE86fz5vulc9boeMcQtz";
+    var per="50";
+    var username="vow";
+    </script>
+    <div id="lazy"></div>
+    <div id="artitalk"></div>
+    <script type="text/javascript" src="https://unpkg.com/artitalk"></script> //调用artitalk
+</body>]]></content>
   </entry>
   <entry>
     <title>tags</title>
