@@ -13,18 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>搞完收工</title>
-    <url>/2021/05/18/%E6%90%9E%E5%AE%8C%E6%94%B6%E5%B7%A5/</url>
-    <content><![CDATA[<p>一直以来，觉得有一个个人博客是一件蛮酷的事情——这个想法大概始于17年18年左右吧。最开始想尝试的是WordPress，但是这东西太重啦，看了好几篇博客，麻烦得要死风格也不喜欢。后来偶然看到Hexo的介绍，凑这不就是我想要的效果吗！于是就简单搭了一个，但是只run起来留了个HelloWorld～<br>昨晚一时兴起，又想重启这个东西，今天一鼓作气，把基本功能就搭了起来，满意地记录下这个时刻！<br>写到这里，我再试一下这玩意儿支持不支持emoji嘻嘻🥳✨🪐</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>周末小感</title>
     <url>/2021/05/17/%E5%91%A8%E6%9C%AB%E5%B0%8F%E6%84%9F/</url>
     <content><![CDATA[<p>「得之坦然，失之淡然」这几个字做到实属不易，老是会钻牛角尖陷入失之交臂的遗恨之中，不断后悔要是当初怎样怎样结局会不会更好一些，老是活在过去，处于无尽的焦虑之中，而在面临新的抉择时又总是恐惧选择，患得患失。<br>算了不能老是这么丧，要想开点儿。小时候弄丢了一罐糖果都仿佛塌了天，而今天的烦恼终究只烦恼今天。一直都觉得，现在的每时每刻都是在书写未来的回忆，或好或坏的经历，越是刻骨铭心越能沉淀下留在生命里。<br>擦肩而过的失去固然让人惋惜，可算起来，自己也是有过不少柳暗花明的运气。根据热力学第一定律，每次的糟心事儿都是在攒人品，错过的都会在未来还回来，珍惜当下～<br>希望自己：得失心淡一点，果决一些，坚定一些！</p>
@@ -37,6 +25,23 @@
       </tags>
   </entry>
   <entry>
+    <title>搞完收工</title>
+    <url>/2021/05/18/%E6%90%9E%E5%AE%8C%E6%94%B6%E5%B7%A5/</url>
+    <content><![CDATA[<p>一直以来，觉得有一个个人博客是一件蛮酷的事情——这个想法大概始于17年18年左右吧。最开始想尝试的是WordPress，但是这东西太重啦，看了好几篇博客，麻烦得要死风格也不喜欢。后来偶然看到Hexo的介绍，凑这不就是我想要的效果吗！于是就简单搭了一个，但是只run起来留了个HelloWorld～<br>昨晚一时兴起，又想重启这个东西，今天一鼓作气，把基本功能就搭了起来，满意地记录下这个时刻！<br>写到这里，我再试一下这玩意儿支持不支持emoji嘻嘻🥳✨🪐</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/shuoshuo/index.html</url>
     <content><![CDATA[<!-- 引用 artitalk -->
@@ -47,6 +52,7 @@
 new Artitalk({
     appId: 'hX0JEJOpjlu7xRMVvmtebdwG', // Your LeanCloud appId
     appKey: '6tKYwE86fz5vulc9boeMcQtz' // Your LeanCloud appKey
+    serverURL: 'https://hx0jejop.api.lncldglobal.com' // Your LeanCloud appKey
 })
 </script>
 ]]></content>
@@ -54,11 +60,6 @@ new Artitalk({
   <entry>
     <title>tags</title>
     <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
