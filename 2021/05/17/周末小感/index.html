@@ -760,34 +760,30 @@
 
 
 
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
+  <script src="//cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
     var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
     });
     new Valine({
-      el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
-      appId      : 'wIfVEqxsa6ev44FMDFSxIhDs-MdYXbMMI',
-      appKey     : 'UwR2ShPRHzEXh9vMd49AP6MN',
-      placeholder: "Why so serious?",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : '' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : true,
-      serverURLs : 'https://wifveqxs.api.lncldglobal.com'
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'wIfVEqxsa6ev44FMDFSxIhDs-MdYXbMMI',
+        appKey: 'UwR2ShPRHzEXh9vMd49AP6MN',
+        placeholder: 'Why so serious?',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+        serverURLs: 'https://wifveqxs.api.lncldglobal.com'
     });
-  }, window.Valine);
-});
-</script>
+  </script>
+
+
 
   
 
