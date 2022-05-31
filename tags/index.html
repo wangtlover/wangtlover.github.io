@@ -617,7 +617,7 @@
   
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick';
     guest = guest.split(',').filter(item=>{
       return GUEST.indexOf(item)>-1;
     });
@@ -628,10 +628,12 @@
         appId: 'wIfVEqxsa6ev44FMDFSxIhDs-MdYXbMMI',
         appKey: 'UwR2ShPRHzEXh9vMd49AP6MN',
         placeholder: 'Why so serious?',
-        avatar:'mm',
+        avatar:'wavatar',
+        recordIP:'true',
+        enableQQ:'true',
         visitor:'false',
         guest_info:guest,
-        pageSize:'10' || 8,
+        pageSize:'10' || 10,
         serverURLs: 'https://wifveqxs.api.lncldglobal.com'
     });
   </script>
