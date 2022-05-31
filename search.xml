@@ -51,7 +51,7 @@
 <script>
 new Artitalk({
     appId: 'hX0JEJOpjlu7xRMVvmtebdwG', // Your LeanCloud appId
-    appKey: '6tKYwE86fz5vulc9boeMcQtz' // Your LeanCloud appKey
+    appKey: '6tKYwE86fz5vulc9boeMcQtz', // Your LeanCloud appKey
     serverURL: 'https://hx0jejop.api.lncldglobal.com' // Your LeanCloud appKey
 })
 </script>
